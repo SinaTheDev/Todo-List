@@ -1,0 +1,83 @@
+$color-main: #110c09;
+
+@font-face {
+  font-family: sahel;
+  src: url(../Fonts/Sahel-Bold-FD.woff);
+}
+
+.warn{
+  background-color: #ff4f4f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hidden{
+  display: none;
+}
+
+div.show-modal {
+  display: flex !important;
+}
+
+.green {
+  background-color: #4aa31c !important;
+  text-decoration: line-through;
+}
+h1.h1-darkmode{
+  color: white;
+}
+
+.table-darkmode{
+  color: white;
+}
+
+body.body-darkmode {
+  transition: 0.5s;
+  background-color: #181820;
+}
+
+ul.ul-darkmode{
+  color: white;
+}
+
+i.i-darkmode{
+  color: white;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.h-darkmode{
+  color: white;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  transition: 0.5s;
+  padding: 0;
+  font-family: "Anton", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.container {
+  width: 85%;
+  margin: auto;
+}
+@mixin flex-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

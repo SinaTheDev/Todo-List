@@ -1,0 +1,267 @@
+@font-face {
+  font-family: sahel;
+  src: url(../Fonts/Sahel-Bold-FD.woff);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+div.show-modal {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.green {
+  background-color: #4aa31c  !important;
+  text-decoration: line-through;
+}
+
+.table-darkmode {
+  color: white;
+}
+
+body.body-darkmode {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #181820;
+}
+
+ul.ul-darkmode {
+  color: white;
+}
+
+i.i-darkmode {
+  color: white;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.h-darkmode {
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 0;
+  font-family: "Anton", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.container {
+  width: 85%;
+  margin: auto;
+}
+
+header {
+  -webkit-box-shadow: 1px 0px 4px;
+          box-shadow: 1px 0px 4px;
+}
+
+body div.container {
+  width: 95% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body aside {
+  width: 20%;
+  margin-top: 20px;
+}
+
+body aside ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+body aside ul li {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 25px 0;
+  list-style-type: none;
+}
+
+body aside ul li:hover {
+  cursor: pointer;
+  color: #0095f6;
+}
+
+body aside ul li:hover i {
+  color: #0095f6;
+  cursor: pointer;
+}
+
+body aside ul li i {
+  color: #494949;
+  font-size: 1.4em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 0 18px;
+}
+
+body main {
+  width: 80%;
+}
+
+body main div.main-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main div.main-head h2 {
+  font-size: 2em;
+}
+
+body main div.main-head button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 0px #166ac9;
+          box-shadow: 0px 0px 5px 0px #166ac9;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: #0095f6;
+  color: white;
+}
+
+body main table {
+  padding: 10px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+body main table tr {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main table th {
+  text-align: left;
+  width: 25%;
+}
+
+body main table td {
+  padding: 25px 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 1px 0px #d5d5d5;
+          box-shadow: 0 1px 0px #d5d5d5;
+}
+
+body main table th.desc-th {
+  width: 40% !important;
+  overflow: hidden;
+}
+
+body main table td.date-tr {
+  text-align: center;
+}
+
+body main table th.date-th {
+  text-align: center;
+}
+
+body main table td.done {
+  color: #5cc725;
+  cursor: pointer;
+}
+
+body main div.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+body main div.modal-container div.modal {
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+body main div.modal-container div.modal div.modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main div.modal-container div.modal div.modal-body div.modal-input {
+  margin-top: 20px;
+}
+
+body main div.modal-container div.modal div.modal-body input {
+  width: 60%;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+
+body main div.modal-container div.modal div.modal-body label {
+  padding-right: 20px;
+}
+
+body main div.modal-container div.modal div.modal-body div.modal-button {
+  margin-top: 20px;
+}
+
+body main div.modal-container div.modal div.modal-body div.modal-button button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 0px #166ac9;
+          box-shadow: 0px 0px 5px 0px #166ac9;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: #0095f6;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

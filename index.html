@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@600&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css" />
+    <script src="./app.js" defer></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>To Do List</h1>
+        </div>
+      </div>
+    </header>
+
+    <body>
+      <div class="container">
+        <aside>
+          <ul>
+            <li id="allTasks"><i class="fas fa-shield-alt"></i>All Tasks</li>
+            <li id="unfinished"><i class="fas fa-clipboard-list"></i>Filter Unfinished</li>
+            <li class="darkmode"><i class="fas fa-sun"></i>Darkmode</li>
+          </ul>
+        </aside>
+        <main>
+          <div class="main-head">
+            <h2 class="main-header">Tasks</h2>
+            <button class="add-popup">Add</button>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th class="desc-th">Description</th>
+                <th class="date-th">Date</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- User Input -->
+            </tbody>
+          </table>
+          <div class="modal-container" id="modal">
+            <div class="modal" >
+              <h1>Add a Task</h1>
+              <div class="modal-body">
+                <div class="modal-input">
+                  <label for="">Title</label
+                  ><input class="input-title" placeholder="Title" type="text" />
+                </div>
+                <div class="modal-input">
+                  <label for="">desc</label
+                  ><input
+                    class="input-desc"
+                    placeholder="description"
+                    type="text"
+                  />
+                </div>
+
+                <div class="modal-input">
+                  <label for="">Date</label
+                  ><input class="input-date" placeholder="Date" type="text" />
+                </div>
+
+                <div class="modal-button">
+                  <button>Add</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </body>
+  </body>
+</html>
